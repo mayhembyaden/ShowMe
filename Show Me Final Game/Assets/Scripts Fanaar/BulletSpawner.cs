@@ -5,9 +5,9 @@ using UnityEngine;
 public class BulletSpawner : MonoBehaviour
 {
 
-    private void FixedUpdate()
-    {
-        ObjectPooler.instance.SpawnFromPool("Bullet", transform.position, Quaternion.identity);
-    }
 
+    private void Start()
+    {
+        ObjectPooler.instance.SpawnFromPoolRepeat("Bullet", transform.position, Quaternion.identity, 5000);
+    }
 }

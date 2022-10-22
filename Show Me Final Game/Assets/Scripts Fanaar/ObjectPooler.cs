@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading.Tasks;
 
 public class ObjectPooler : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class ObjectPooler : MonoBehaviour
 
     public static ObjectPooler instance;
 
+
     public void Awake()
     {
         instance = this;
@@ -25,11 +27,11 @@ public class ObjectPooler : MonoBehaviour
     {
         poolDictionary = new Dictionary<string, Queue<GameObject>>();
 
-        foreach (Pool pool in pools)
+        foreach(Pool pool in pools)
         {
             Queue<GameObject> objectPool = new Queue<GameObject>();
 
-            for (int i = 0; i < pool.size; i++)
+            for(int i = 0; i < pool.size; i++)
             {
                 GameObject obj = Instantiate(pool.prefab);
                 obj.SetActive(false);
@@ -58,6 +60,13 @@ public class ObjectPooler : MonoBehaviour
         poolDictionary[tag].Enqueue(objectToSpawn);
 
         return objectToSpawn;
+    }
+
+    async public void SpawnFromPoolRepeat(string tag, Vector3 position, Quaternion rotation, int miliSeconds)
+    {
+        await Task.Delay(miliSeconds);
+        ObjectPooler.instance.SpawnFromPool("Bullet", transform.position, Quaternion.identity);
+        SpawnFromPoolRepeat(tag, position, rotation, miliSeconds);
     }
 
 }
