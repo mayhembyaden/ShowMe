@@ -287,7 +287,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 308181521}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52593365aad632941935418a72f14b86, type: 3}
+  m_Script: {fileID: 11500000, guid: c117a7af45bae34488f8362ea2845013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
@@ -346,7 +346,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 323324028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0d6dc99988368841a411c61d1987de3, type: 3}
+  m_Script: {fileID: 11500000, guid: c83e0b4fedd2a6f4ea38ccca38f4940c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
@@ -1109,7 +1109,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1119351850}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52593365aad632941935418a72f14b86, type: 3}
+  m_Script: {fileID: 11500000, guid: c117a7af45bae34488f8362ea2845013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
@@ -1169,7 +1169,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1242642465}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52593365aad632941935418a72f14b86, type: 3}
+  m_Script: {fileID: 11500000, guid: c117a7af45bae34488f8362ea2845013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
@@ -1428,7 +1428,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2050079406}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52593365aad632941935418a72f14b86, type: 3}
+  m_Script: {fileID: 11500000, guid: c117a7af45bae34488f8362ea2845013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
@@ -1487,11 +1487,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2065251626}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f174dbc680b189e499dfc62c70dca305, type: 3}
+  m_Script: {fileID: 11500000, guid: 404c9f64f386f6742b5a55f2015ed5d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gunData: {fileID: 11400000, guid: a538180b92710c042a781afa13ad1dc7, type: 2}
-  cam: {fileID: 6226804308475828196}
+  cam: {fileID: 1639151740}
 --- !u!1001 &2084445384
 PrefabInstance:
   m_ObjectHideFlags: 0
