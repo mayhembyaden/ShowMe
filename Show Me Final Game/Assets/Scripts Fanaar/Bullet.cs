@@ -8,9 +8,9 @@ public class Bullet : MonoBehaviour
 
     void OnEnable()
     {
-        float xForce = Random.Range(-sideForce, sideForce);
+        float xForce = 0;
         float yForce = 0;
-        float zForce = Random.Range(-sideForce, sideForce);
+        float zForce = sideForce;
 
         Vector3 force = new Vector3(xForce, yForce, zForce);
 
