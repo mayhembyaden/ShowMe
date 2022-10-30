@@ -11,7 +11,7 @@ public class LevelTimer : MonoBehaviour
     public GameObject Score;
 
     float currentTime = 0f;
-    float startingTime = 3f;
+    float startingTime = 90f;
     void Start()
     {
         currentTime = startingTime;
