@@ -393,6 +393,7 @@ GameObject:
   - component: {fileID: 209399350}
   - component: {fileID: 209399349}
   - component: {fileID: 209399348}
+  - component: {fileID: 209399352}
   m_Layer: 0
   m_Name: Bullet Detection Left 2
   m_TagString: Bullet Detector Left
@@ -478,6 +479,19 @@ Transform:
   m_Father: {fileID: 1648157430}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &209399352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209399347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ce2197657bb39044928103b987fd103, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationControllerLeft: {fileID: 1143709515}
 --- !u!1 &211881423
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,7 +1849,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1143709511}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: c3223a88ad616834fae31d86947c535f, type: 2}
   m_CullingMode: 0
@@ -1921,6 +1935,7 @@ GameObject:
   - component: {fileID: 1292188667}
   - component: {fileID: 1292188666}
   - component: {fileID: 1292188665}
+  - component: {fileID: 1292188669}
   m_Layer: 0
   m_Name: Bullet Detection Left
   m_TagString: Bullet Detector Left
@@ -2006,6 +2021,19 @@ Transform:
   m_Father: {fileID: 1648157430}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1292188669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292188664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ce2197657bb39044928103b987fd103, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationControllerLeft: {fileID: 1143709515}
 --- !u!1 &1398901948
 GameObject:
   m_ObjectHideFlags: 0
@@ -2137,6 +2165,7 @@ GameObject:
   - component: {fileID: 1580870241}
   - component: {fileID: 1580870240}
   - component: {fileID: 1580870239}
+  - component: {fileID: 1580870243}
   m_Layer: 0
   m_Name: Bullet Detection Right
   m_TagString: Bullet Detector Right
@@ -2222,6 +2251,19 @@ Transform:
   m_Father: {fileID: 1648157430}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1580870243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580870238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29653cfd659e27144a1bd6d29eb4f203, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationControllerRight: {fileID: 1807005755}
 --- !u!1 &1616016228
 GameObject:
   m_ObjectHideFlags: 0
@@ -2657,7 +2699,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1807005751}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: d430f4e577503644086efa55f88167e1, type: 2}
   m_CullingMode: 0
@@ -2712,6 +2754,7 @@ GameObject:
   - component: {fileID: 1826143713}
   - component: {fileID: 1826143712}
   - component: {fileID: 1826143711}
+  - component: {fileID: 1826143715}
   m_Layer: 0
   m_Name: Bullet Detection Right 2
   m_TagString: Bullet Detector Right
@@ -2797,6 +2840,19 @@ Transform:
   m_Father: {fileID: 1648157430}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1826143715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826143710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29653cfd659e27144a1bd6d29eb4f203, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationControllerRight: {fileID: 1807005755}
 --- !u!1 &1849345408
 GameObject:
   m_ObjectHideFlags: 0
