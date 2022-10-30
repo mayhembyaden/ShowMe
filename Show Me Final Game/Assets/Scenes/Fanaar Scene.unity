@@ -2269,7 +2269,7 @@ GameObject:
   - component: {fileID: 1460079589}
   - component: {fileID: 1460079588}
   m_Layer: 5
-  m_Name: CountdownTimer
+  m_Name: Level Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2421,6 +2421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d569d5b222f58449680d146f33b137, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Timer: {fileID: 1460079586}
 --- !u!4 &1504805020
 Transform:
   m_ObjectHideFlags: 0

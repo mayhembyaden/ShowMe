@@ -11,8 +11,6 @@ public class BulletHits : MonoBehaviour
     public GameObject TakenDamage;
     public int Damage;
 
-
-
     private void OnTriggerEnter(Collider other)
     {
 
@@ -30,13 +28,17 @@ public class BulletHits : MonoBehaviour
         Damage++;
         TakenDamage.GetComponent<TextMeshProUGUI>().text = "" + Damage + "";
 
-        if (Damage == 10)
+        if (Damage == 1)
         {
             Debug.Log("Game Over");
             GameOver.SetActive(true);
-
-            //SceneManager.LoadScene();
+            Invoke("ReturnToMenu", 3.0f);
+           
         }
     }
 
+    private void ReturnToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

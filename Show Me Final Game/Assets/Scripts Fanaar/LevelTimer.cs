@@ -2,19 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class LevelTimer : MonoBehaviour
 {
+    [SerializeField] GameObject Timer;
+
     float currentTime = 0f;
-    float startingTime = 10f;
+    float startingTime = 3f;
     void Start()
     {
-        currentTime = 10f;
+        currentTime = startingTime;
     }
 
     void Update()
     {
         currentTime -= 1 * Time.deltaTime;
-        print(currentTime);
+        Timer.GetComponent<TextMeshProUGUI>().text = "" + Mathf.RoundToInt(currentTime) + "";
+
+        if (currentTime <= 0)
+        {
+            currentTime = 0;
+        }
     }
 }
