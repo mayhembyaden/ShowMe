@@ -7,8 +7,10 @@ using UnityEngine.SceneManagement;
 
 public class BulletHits : MonoBehaviour
 {
+    public GameObject GameOver;
     public GameObject TakenDamage;
     public int Damage;
+
 
 
     private void OnTriggerEnter(Collider other)
@@ -31,6 +33,8 @@ public class BulletHits : MonoBehaviour
         if (Damage == 10)
         {
             Debug.Log("Game Over");
+            GameOver.SetActive(true);
+
             //SceneManager.LoadScene();
         }
     }
