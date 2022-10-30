@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class LevelTimer : MonoBehaviour
 {
     [SerializeField] GameObject Timer;
+    public GameObject Score;
 
     float currentTime = 0f;
     float startingTime = 3f;
@@ -23,6 +25,14 @@ public class LevelTimer : MonoBehaviour
         if (currentTime <= 0)
         {
             currentTime = 0;
+            Score.SetActive(true);
+            //Show end screen with score
+            Invoke("ReturnToMainMenu", 5.0f);
         }
+    }
+
+    private void ReturnToMainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

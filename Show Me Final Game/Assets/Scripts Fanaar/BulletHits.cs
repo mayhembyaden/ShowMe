@@ -28,7 +28,7 @@ public class BulletHits : MonoBehaviour
         Damage++;
         TakenDamage.GetComponent<TextMeshProUGUI>().text = "" + Damage + "";
 
-        if (Damage == 1)
+        if (Damage == 10)
         {
             Debug.Log("Game Over");
             GameOver.SetActive(true);
