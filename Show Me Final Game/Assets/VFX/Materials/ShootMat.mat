@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TrailMat
-  m_Shader: {fileID: -6465566751694194690, guid: 442ea97b426ee3c46aa521215954cbbd, type: 3}
+  m_Name: ShootMat
+  m_Shader: {fileID: -6465566751694194690, guid: 1ee923da3ef164c499170e4a709ca154, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -20,8 +20,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_5cadac51275542ccbfea5982b5018095_Texture_1:
-        m_Texture: {fileID: 2800000, guid: ad451b6e118f6144da510d48795ae3ac, type: 3}
+    - _SampleTexture2D_46a89f6d12794179b1ad12c7fcb9eedf_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 5c21791f2b2e52446b10b05c0468082d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -38,11 +38,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Contrast: 4
-    - _DisolveGradient: 0.6
+    - _Contrast: 2
+    - _DissolveGradient: 0.6
     m_Colors:
-    - _GradientClr_1: {r: 1, g: 0.94137466, b: 0.83584905, a: 0}
-    - _GradientClr_2: {r: 1, g: 0, b: 0.5925927, a: 0}
-    - _SpeedDissolve: {r: 0.8, g: 0.1, b: 0, a: 0}
-    - _SpeedTrail: {r: 1, g: 0, b: 0, a: 0}
+    - _GradientClr1: {r: 1, g: 0.8264151, b: 0.8264151, a: 0}
+    - _GradientClr2: {r: 1, g: 0.5028986, b: 0.1849057, a: 0}
+    - _SpeedDissolve: {r: 0.5, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TrailMat
+  m_Name: TrailMatAccent
   m_Shader: {fileID: -6465566751694194690, guid: 442ea97b426ee3c46aa521215954cbbd, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -38,11 +38,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Contrast: 4
+    - _Contrast: 3
     - _DisolveGradient: 0.6
     m_Colors:
-    - _GradientClr_1: {r: 1, g: 0.94137466, b: 0.83584905, a: 0}
-    - _GradientClr_2: {r: 1, g: 0, b: 0.5925927, a: 0}
+    - _GradientClr_1: {r: 1, g: 0.96835494, b: 0.93962264, a: 0.78431374}
+    - _GradientClr_2: {r: 1, g: 0.3358491, b: 0.47959173, a: 0.28235295}
     - _SpeedDissolve: {r: 0.8, g: 0.1, b: 0, a: 0}
     - _SpeedTrail: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
