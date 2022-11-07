@@ -11,6 +11,7 @@ public class Gun : MonoBehaviour
     [SerializeField] private Transform cam;
 
     float timeSinceLastShot;
+    public ParticleSystem muzzleflash;
 
     private void Start()
     {
@@ -53,6 +54,7 @@ public class Gun : MonoBehaviour
                 }
 
                 gunData.currentAmmo--;
+                muzzleflash.Play();
                 timeSinceLastShot = 0;
                 OnGunShot();
             }
