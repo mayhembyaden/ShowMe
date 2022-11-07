@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public float sideForce = 1f;
+    private float sideForce = 5f;
 
     void OnEnable()
     {
-        float xForce = 0;
+        float xForce = Random.Range(sideForce, 0);
         float yForce = 0;
-        float zForce = sideForce;
+        float zForce = Random.Range(sideForce, 0);
 
         Vector3 force = new Vector3(xForce, yForce, zForce);
 
