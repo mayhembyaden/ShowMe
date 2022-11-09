@@ -15,8 +15,8 @@ MonoBehaviour:
   name: Rifle
   damage: 27
   maxDistance: 200
-  currentAmmo: 30
+  currentAmmo: 16
   magSize: 30
-  fireRate: 180
+  fireRate: 250
   reloadTime: 1.5
   reloading: 0

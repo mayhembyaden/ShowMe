@@ -5,7 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
-  - Ground
+  - Bullet Detector Left
+  - Bullet Detector Right
+  - Bullet
   layers:
   - Default
   - TransparentFX
